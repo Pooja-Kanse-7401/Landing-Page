@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg,rgb(105, 71, 126), rgb(50, 30, 62)) ;
+}
+nav img{
+    height: 8vh;
+}
+nav li a{
+    color: rgb(235, 225, 208);
+    text-decoration: none;
+    margin: 1rem;
+}
+nav li a:hover{
+    padding-bottom: .3rem;
+    border-bottom: 2px solid rgb(235, 225, 208);
+    transition:ease-in-out .2s;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav{
+    padding: 2rem 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%; 
+    position: absolute;
+}
+#content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+#left{
+    width: 23%;
+    margin-left: 15rem;
+    color: rgb(242, 235, 223);
+}
+#left h1{
+    color: white;
+    font-size: 3rem;
+    padding: 1.5rem 0rem;
+}
+#left button{
+    margin: 1rem .3rem; 
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    height: 3rem;
+    background: transparent;
+    border: none;
+    color: rgb(242, 235, 223);
+}
+#left #try{
+    background: linear-gradient(45deg, yellow, rgb(141, 92, 2));
+    color: black;
+}
+
+#left #watch:hover{
+    background: linear-gradient(45deg, yellow, rgb(141, 92, 2));
+    color: black;
+}
+/* #left #watch:hover  */
+#right{
+    height: 100%;
+    width: 60%;
+    right: 0;
+    background: url("https://cdn.pixabay.com/photo/2017/07/01/16/26/design-2461957_1280.png");
+    background-position: left;
+    opacity: .7;
+    position: absolute;
+}
+#content img{
+    position: absolute;
+    height: 75vh;
+    right: 1rem;
+    margin-bottom: 5rem;
+    /* opacity: .7; */
+}
